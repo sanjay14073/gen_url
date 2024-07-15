@@ -1,0 +1,114 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  max-height: auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:#333; /* Light background */
+  color: #333; /* Dark text */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333; /* Material Design blue */
+  color:white;
+}
+.header-logo {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 5px auto;
+  color: #2196f3;
+  background-color:#333; /* Light background */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.file-input-label {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #2196f3; /* Material Design blue */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-input-label:hover {
+  background-color: #64b5f6; /* Lighter blue */
+}
+
+.file-input {
+  display: none;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.response-container {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #333; /* Light blue */
+
+}
+
+.response-container a {
+  color: #2196f3; /* Material Design blue text */
+  text-decoration: none;
+}
+
+.response-container a:hover {
+  text-decoration: underline;
+}
+
+.upload-button {
+  background-color: #2196f3; /* Material Design blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #64b5f6; /* Lighter blue */
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #333; /* Material Design blue */
+  color: white;
+
+}
