@@ -1,4 +1,4 @@
-# genURL Project
+# genURL
 
 ## Overview
 
